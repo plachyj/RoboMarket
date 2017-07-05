@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: #000;
+	color: white;
+	font-family: Verdana, Geneva, sans-serif;
+	width: auto;
+	margin: 0px auto;
+	border-right: 3px solid #F80;
+
+}
+
+header{
+	margin: 40px 0px 20px 40px;
+	padding: 10px;
+	width: 800px;
+	border: 3px solid #222;
+	border-bottom-left-radius: 30px;
+	border-top-right-radius: 30px;
+}
+
+header:hover{
+	border-color: #666;
+}
+
+#logo:after{
+	content: '"';
+	position: relative;
+	top: 15px;
+	right: 15px;
+	font-family: Webdings;
+	font-size: 100px;
+	float: left;
+	color: #F80;
+}
+
+header h1{
+	margin: 0px;
+	font-weight: normal;
+	font-size: 70px;
+}
+
+nav ul{
+	float: right;
+	position: relative;
+	left: 3px;
+	margin: 40px auto;
+	border: 3px solid #F80;
+	border-right: none;
+	border-bottom-left-radius: 30px;
+	list-style: none;
+	background: #111;
+}
+
+nav ul:before{
+	content: 'ý';
+	position:relative;
+	top: 8px;
+	font-family: Webdings;
+	font-size: 80px;
+	float: left;
+}
+ul li{
+	position: relative;
+	top: 3px;
+	margin: 0px;
+	margin-bottom: -6px;
+	display: inline-block;
+	padding: 19px;
+	border-top: 3px solid #F80;
+	border-bottom: 3px solid #F80;
+}
+
+
+
+nav ul li:first-letter{
+	color: #555;
+	font-size: 120%
+}
+
+nav ul li a{
+	font-size: 32px;
+	color: #FFF;
+	text-decoration: none;
+}
+
+nav ul li a:hover{
+	color: #DDD;
+}
+
+article{
+	margin: 0px auto;
+	width: 1300px;
+}
+
+article header{
+	margin: 40px;
+	padding-left: 40px;
+	width: auto;
+	border-left: none;
+	border-top: none;
+	border-right: none;
+}
+
+article header h1{
+	font-size: 32px;
+}
+
+article section{
+	padding: 20px;
+	border-top: 3px solid #222;
+	border-bottom: 3px solid #222;
+	border-radius: 30px;
+}
+
+article section:hover{
+	border-top: 3px solid #666;
+	border-bottom: 3px solid #666;
+}
+
+article section p{
+	text-align: justify;
+	text-indent: 26px;
+	font-size: 22px;
+}
+
+article footer{	border: none; }
+
+footer{
+	margin: 10px auto;
+	padding: 10px;
+	text-align: center;
+	border-bottom: 3px solid #F60;
+	border-radius: 30px;
+}
